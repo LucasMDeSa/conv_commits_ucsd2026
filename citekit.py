@@ -15,6 +15,21 @@ def format_apa(ref):
     return citation
 
 
+def format_mla(ref):
+    """Format a reference dict in MLA 9th edition style.
+
+    Args:
+        ref: dict with keys 'author_last', 'author_first', 'year', 'title',
+             and optionally 'journal'.
+    """
+    author = f"{ref['author_last']}, {ref['author_first']}"
+    citation = f'{author}. "{ref["title"]}."'
+    if "journal" in ref:
+        citation += f" {ref['journal']},"
+    citation += f" {ref['year']}."
+    return citation
+
+
 def format_bibtex(ref):
     """Format a reference dict as a BibTeX @article entry.
 
