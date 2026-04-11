@@ -42,7 +42,8 @@ def format_bibtex(ref):
     entry += f"  author  = {{{ref['author_last']}, {ref['author_first']}}},\n"
     entry += f"  year    = {{{ref['year']}}},\n"
     entry += f"  title   = {{{ref['title']}}}"
-    if "journal" in ref:
-        entry += f",\n  journal = {{{ref['journal']}}}"
+    for field in ("journal", "volume", "number", "pages"):
+        if field in ref:
+            entry += f",\n  {field:<8}= {{{ref[field]}}}"
     entry += "\n}"
     return entry
