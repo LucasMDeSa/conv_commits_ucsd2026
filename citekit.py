@@ -22,7 +22,7 @@ def format_bibtex(ref):
         ref: dict with keys 'author_last', 'author_first', 'year', 'title',
              and optionally 'journal'.
     """
-    key = f"{ref['author_last'].lower()}{ref['year']}"
+    key = f"{ref['author_last'].lower().replace(' ', '')}{ref['year']}"
     entry = f"@article{{{key},\n"
     entry += f"  author  = {{{ref['author_last']}, {ref['author_first']}}},\n"
     entry += f"  year    = {{{ref['year']}}},\n"
