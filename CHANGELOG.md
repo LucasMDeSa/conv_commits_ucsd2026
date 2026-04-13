@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.2.0](https://github.com/LucasMDeSa/conv_commits_ucsd2026/compare/v0.1.0...v0.2.0) (2026-04-13)
+
+
+### Features
+
+* add user interface module interface.py ([81ac258](https://github.com/LucasMDeSa/conv_commits_ucsd2026/commit/81ac25848dde0944dcfb87d7c8272adf63dcb822))
+
+
+### Documentation
+
+* add talk slides ([fbf66cf](https://github.com/LucasMDeSa/conv_commits_ucsd2026/commit/fbf66cf06f8cf1483f62986583ec1546cc80d9eb))
+* remove obsolete slide plan from README ([e4f311f](https://github.com/LucasMDeSa/conv_commits_ucsd2026/commit/e4f311f872aa89ce82847277f911ae3fd0d9c5cf))
+
 ## 0.1.0 (2026-04-11)
 
 
