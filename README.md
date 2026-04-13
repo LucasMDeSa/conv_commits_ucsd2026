@@ -8,18 +8,7 @@ This repository is the live demo companion for a 10-minute talk given during the
 
 ### 1. Atomic Commits
 
-An atomic commit captures exactly one logical change. Not one file, not one session —
-one *idea*. The test is: can you describe what this commit does in a single sentence
-without using "and"? If not, it should be two commits.
-
-Atomic commits matter for citation because they make the history auditable. A reader
-can check out any point in the history and understand what the software was doing at
-that moment, with no ambiguity about whether an unrelated change snuck in.
-
-**In practice:** during a work session you commit freely and messily. Before pushing,
-you clean up with an interactive rebase (`git rebase -i HEAD~N`) — squashing half-steps,
-splitting mixed commits, rewriting messages. The public history looks intentional because
-you made it so after the fact.
+An atomic commit captures exactly one logical change. It should consist in an irreducible change that works on its own, and can be described in one line. This has the adde benefit of producing a clear, readable log, and easily reversible commits.
 
 ### 2. Conventional Commits
 
