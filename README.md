@@ -1,5 +1,5 @@
 # Conventional Commits for Software Citation
-### Flash Talk — Software Citation Workshop, UCSD 2026
+### 10-min Talk — Software Citation Workshop, UCSD 2026
 
 This repository is the live demo companion for a 10-minute talk given during the Software Citation Workshop at UCSD, 2026.
 ---
