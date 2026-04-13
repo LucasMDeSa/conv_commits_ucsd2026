@@ -44,6 +44,7 @@ def format_mla(ref):
     if "journal" in ref:
         citation += f" {ref['journal']},"
     citation += f" {ref['year']}."
+    citation += f" {ref['volume']}."
     return citation
 
 
