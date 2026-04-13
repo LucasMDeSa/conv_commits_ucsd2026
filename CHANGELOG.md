@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.3.0](https://github.com/LucasMDeSa/conv_commits_ucsd2026/compare/v0.2.0...v0.3.0) (2026-04-13)
+
+
+### Features
+
+* demand volume col ([e3da9cc](https://github.com/LucasMDeSa/conv_commits_ucsd2026/commit/e3da9cc842f3dd98b5a155636a10b850ebd5bee2))
+
+
+### Documentation
+
+* simplify atomic commits description ([95e64ed](https://github.com/LucasMDeSa/conv_commits_ucsd2026/commit/95e64edecfbfb6377dce291dfe14669ffaf7f046))
+* update README ([87a0b88](https://github.com/LucasMDeSa/conv_commits_ucsd2026/commit/87a0b88ea669e9fe5d161610084d88c7dd5e1644))
+
 ## [0.2.0](https://github.com/LucasMDeSa/conv_commits_ucsd2026/compare/v0.1.0...v0.2.0) (2026-04-13)
 
 
