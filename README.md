@@ -61,12 +61,7 @@ format `MAJOR.MINOR.PATCH`:
 - **MAJOR** (`x.0.0`): incompatible API changes; resets MINOR and PATCH to 0
 
 Versions below `1.0.0` (i.e. `0.x.y`) are considered unstable — anything may change
-at any time. The `1.0.0` release signals a stable public API.
-
-Conventional Commits map directly onto SemVer decisions. This is not coincidental —
-the two specifications were designed together. The key insight is that the person
-writing the commit message is making a versioning decision in real time, at the moment
-they understand the change best.
+at any time. The `1.0.0` release signals a stable public API. Conventional Commits map directly onto SemVer decisions. 
 
 **This commit chain in this repo resolves to v1.0.0:**
 
@@ -84,7 +79,7 @@ feat!: restructure author fields to support multiple...  → 1.0.0  ← MAJOR
 Work session
     │
     ▼
-Commit freely (messy, incremental)
+Commit freely 
     │
     ▼
 git rebase -i HEAD~N   ← clean up: squash, split, reword
@@ -118,9 +113,9 @@ a GitHub Action and:
 2. Opens a "Release PR" proposing the next version and a fully generated `CHANGELOG.md`
 3. Keeps the PR updated as new commits land (without creating noise)
 4. When the PR is merged: creates a git tag and a GitHub Release
-
+  
 The changelog it generates is grouped by type (Breaking Changes, Features, Bug Fixes)
-and links each entry back to its commit. This is the artifact that makes a version
+and links each entry back to its commit. This makes a version
 citable with a clear, human-readable description of what changed.
 
 **Other tools in this space:**
