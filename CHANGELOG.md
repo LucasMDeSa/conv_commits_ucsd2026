@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.1](https://github.com/LucasMDeSa/conv_commits_ucsd2026/compare/v0.3.0...v0.3.1) (2026-04-24)
+
+
+### Documentation
+
+* refactor README for clarity and conciseness ([49853b5](https://github.com/LucasMDeSa/conv_commits_ucsd2026/commit/49853b5331e6ccbf3b3e73e04c303c6d9257cfb6))
+
 ## [0.3.0](https://github.com/LucasMDeSa/conv_commits_ucsd2026/compare/v0.2.0...v0.3.0) (2026-04-13)
 
 
